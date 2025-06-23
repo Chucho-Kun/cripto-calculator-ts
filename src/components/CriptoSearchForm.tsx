@@ -20,7 +20,7 @@ export default function CriptoSearchForm() {
         })
     }
 
-    const handleSubmit = ( e: FormEvent<HTMLSelectElement> ) => {
+    const handleSubmit = ( e: FormEvent<HTMLFormElement> ) => {
         e.preventDefault()
         if( Object.values( pair ).includes('') ){
             setError('Todos los campos son obligatorios')
@@ -34,7 +34,9 @@ export default function CriptoSearchForm() {
   return (
     <>
     
-    <form className="form" onSubmit={ handleSubmit }>
+    <form className="form" 
+        onSubmit={ handleSubmit }
+        >
         { error && <ErrorMessage>{ error }</ErrorMessage> }
         <div>
             <label htmlFor="currency">Moneda:</label>
