@@ -1,12 +1,15 @@
 # CriptoCalculator 
-A calculator that displays the value of each cryptocurrency and its equivalent in different currencies in real time via an API.
+A form that shows you the price and status of the top 30 cryptocurrencies at the moment and quotes them against any of the top 30 most popular currencies worldwide.
 ## Technologies
-React + Typescript + Zod + Zustand
+React + Typescript + Zod + Zustand + Axios
 ## How to use
 ```
 npm install
 npm run dev
 ```
+## Deploy on Netlify
+Website hosted on netlify.app server
+[https://cripto-quoter-ts.netlify.app/](https://cripto-quoter-ts.netlify.app/)
 ## Developer Notes
 ### Managed by Zustand
 #### src/store.ts
