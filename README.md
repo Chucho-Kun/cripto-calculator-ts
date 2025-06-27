@@ -1,5 +1,6 @@
 # CriptoCalculator 
 A form that shows you the price and status of the top 30 cryptocurrencies at the moment and quotes them against any of the top 30 most popular currencies worldwide.
+![screenshont](src/assets/screenshot.png)
 ## Technologies
 React + Typescript + Zod + Zustand + Axios
 ## How to use
